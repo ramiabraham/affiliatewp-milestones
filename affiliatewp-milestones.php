@@ -219,11 +219,11 @@ if ( ! class_exists( 'AffiliateWP_Milestones' ) ) {
 		 * @since  1.0
 		 * @return boolean
 		 */
-		public function has_1_8() {
+		public function has_1_9() {
 
 			$return = true;
 
-			if ( version_compare( AFFILIATEWP_VERSION, '1.8', '<' ) ) {
+			if ( version_compare( AFFILIATEWP_VERSION, '1.9', '<' ) ) {
 				$return = false;
 			}
 
